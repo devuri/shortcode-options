@@ -51,7 +51,7 @@ End with an example of getting some data out of the system or using it for a lit
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with WP Shortcode Options . If not, see [gnu.org](http://www.gnu.org/licenses/)
+	along with WP Shortcode Options . If not, see http://www.gnu.org/licenses
 
 
 ## Authors

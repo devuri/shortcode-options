@@ -5,7 +5,7 @@ This plugin is a simple way to display WP Options using shortcode [wpoption opti
 ## Getting Started
 
 Use the **[wpoption option="blogname"]** shortcode to display any WordPress Option.
-This plugin is a simple way to display WP Options using shortcode,you can reference list of options here:[Option Reference](https://codex.wordpress.org/Option_Reference).
+This plugin is a simple way to display WP Options using shortcode, you can reference list of options here: [Option Reference](https://codex.wordpress.org/Option_Reference).
 
 ```
 [wpoption option="blogname"]
@@ -51,7 +51,7 @@ End with an example of getting some data out of the system or using it for a lit
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with WP Shortcode Options . If not, see http://www.gnu.org/licenses/
+	along with WP Shortcode Options . If not, see [gnu.org](http://www.gnu.org/licenses/)
 
 
 ## Authors
@@ -67,5 +67,5 @@ This project is licensed under the **GNU General Public License v2.0** - see the
 ## Acknowledgments
 
 * wp codex
-* Inspiration
+* Inspiration: client website
 * etc

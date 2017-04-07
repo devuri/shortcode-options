@@ -30,7 +30,9 @@ Upload the plugin to your WordPress website, Activate it,
 
 End with an example of getting some data out of the system or using it for a little demo
 
+# Supports
 
+Enable automatic updates with [GitHub Updater](https://github.com/afragen/github-updater)
 
 ## Built With
 

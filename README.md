@@ -62,7 +62,7 @@ More PLugins Here [D7 WordPress Plugins](http://alpha.devision7.com/wordpress-pl
 
 ## License
 
-This project is licensed under the **GNU General Public License v2.0** - see the [LICENSE.md](LICENSE.txt) file for details
+This project is licensed under the **GNU General Public License v2.0** - see the [LICENSE.txt](LICENSE.txt) file for details
 
 ## Acknowledgments
 

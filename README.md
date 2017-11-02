@@ -17,7 +17,7 @@ Tested up to WordPress: 4.7.3
 
 ```
 Requires PHP: 5.2+
-Tested up to PHP: 7.0
+Tested up to PHP: 7.2
 ```
 
 ### Installing

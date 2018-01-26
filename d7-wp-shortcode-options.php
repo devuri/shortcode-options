@@ -86,7 +86,7 @@
 				$atts
 			);
 
-		       $output_wp_options = get_option( $atts['option'] );
+		       $output_wp_options = get_option( $atts['opt'] );
 		       return $output_wp_options;
 
 		}

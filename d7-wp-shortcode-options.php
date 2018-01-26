@@ -74,14 +74,14 @@
 
 
 		/**
-		* Add Shortcode [wpoption option="myoption"]
+		* Add Shortcode [wpoption opt="myoption"]
 		***/
 		function wpoption_shortcode( $atts ) {
 
 			// Attributes
 			$atts = shortcode_atts(
 				array(
-					'option' => 'blogname',
+					'opt' => 'blogname',
 				),
 				$atts
 			);

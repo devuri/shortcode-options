@@ -9,7 +9,7 @@
 *	Plugin URI: http://alpha.devision7.com/wordpress-plugins/
 * GitHub Plugin URI: devuri/wp-shortcode-options
 *	Description: This plugin is a simple way to display WP Options using shortcode <strong>[wpoption option="blogname"]</strong>, you can reference list of options here:<a href="https://codex.wordpress.org/Option_Reference"> Option Reference </a>.
-*	Version: 1.2.0
+*	Version: 1.4.0
 *	Author: DeVision7.com
 *	Author URI: http://devision7.com
 *	Contributors: DeVision7.com

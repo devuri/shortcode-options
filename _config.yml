@@ -4,3 +4,5 @@ description: This plugin is a simple way to display WP Options using shortcode
 
 theme: jekyll-theme-cayman
 show_downloads: true
+
+google_analytics: UA-113140014-1

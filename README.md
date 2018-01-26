@@ -1,10 +1,10 @@
 # WP Shortcode Options
 
-This plugin is a simple way to display WP Options using shortcode [wpoption option="blogname"], you can reference list of options here: [Codex Option Reference](https://codex.wordpress.org/Option_Reference)..
+This plugin is a simple way to display WP Options using shortcode [wpoption opt="blogname"], you can reference list of options here: [Codex Option Reference](https://codex.wordpress.org/Option_Reference)..
 
 ## Getting Started
 
-Use the **[wpoption option="blogname"]** shortcode to display any WordPress Option.
+Use the **[wpoption opt="blogname"]** shortcode to display any WordPress Option.
 This plugin is a simple way to display WP Options using shortcode, you can reference list of options here: [Option Reference](https://codex.wordpress.org/Option_Reference).
 
 ```

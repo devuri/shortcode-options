@@ -1,5 +1,5 @@
 # WP Shortcode Options
-
+Options are pieces of data that WordPress uses to store various preferences and configuration settings. Listed below are the options, along with some of the default values from the current WordPress install ([Reference](https://codex.wordpress.org/Option_Reference)). 
 This plugin is a simple way to display WP Options using shortcode [wpoption opt="blogname"], you can reference list of options here: [Codex Option Reference](https://codex.wordpress.org/Option_Reference)..
 
 ## Getting Started
@@ -32,7 +32,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 # Supports
 
-Enable automatic updates with [GitHub Updater](https://github.com/afragen/github-updater)
+This plugin uses the [GitHub Updater](https://github.com/afragen/github-updater)  this will enable automatic updates.
 
 ## Built With
 

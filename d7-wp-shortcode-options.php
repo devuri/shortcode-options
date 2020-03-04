@@ -75,7 +75,7 @@
 
 		/**
 		* Add Shortcode [wpoption opt="myoption"]
-		***/
+		*/
 		function wpoption_shortcode( $atts ) {
 
 			// Attributes

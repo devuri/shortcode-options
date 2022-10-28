@@ -1,0 +1,26 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+    - rules.neon
+parameters:
+    bootstrapFiles:
+        - tests/stubs.php
+    tmpDir: tmp
+    level: 1
+    ignoreErrors:
+        - '#Static call to instance method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]()#'
+    inferPrivatePropertyTypeFromConstructor: true
+    treatPhpDocTypesAsCertain: false
+    checkMissingIterableValueType: false
+    excludePaths:
+        - tests/Integration/*
+        - tmp/*
+        - node_modules/*
+        - bin/*
+        - languages/*
+        - vendor/*
+    scanFiles:
+        - shortcode-options.php
+    paths:
+        - src
+        - tests

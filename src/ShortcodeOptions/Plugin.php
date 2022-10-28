@@ -36,7 +36,7 @@ class Plugin
      *
      * @param array $atts
      *
-     * @return
+     * @return 
      */
     public function wpoption_shortcode( $atts )
     {

@@ -13,7 +13,7 @@ This plugin is a simple way to display WP Options using shortcode, you can refer
 
 ## License
 
-This project is licensed under the **GNU General Public License v2.0** - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the **GNU General Public License v2.0**
 
 ## Acknowledgments
 

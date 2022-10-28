@@ -1,0 +1,33 @@
+## OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## DEV TOOLS
+node_modules/
+tmp/
+asset/dist/
+/asset/mix-manifest.json
+vendor/
+bug/
+report/
+.wp-develop/
+
+## PLUGIN FILES
+build/trunk/
+*.zip
+
+## OTHER
+.github/
+.idea/
+.phpunit.result.cache/
+.vscode/
+.phpdoc/
+.env
+.env.backup
+.phpunit.result.cache
+.phpdoc/cache/
+npm-debug.log
+yarn-error.log
+wpcs-lint.txt
+wpcs-fixed-report.txt

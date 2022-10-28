@@ -1,0 +1,22 @@
+* text=auto
+
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+# Flag some file extensions as binary. Git should already DTRT, but just in case.
+*.enc binary
+*.eot binary
+*.gif binary
+*.jpg binary
+*.png binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
+
+# Exclude files from exporting
+/vendor/ export-ignore
+/node_modules export-ignore

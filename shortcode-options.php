@@ -1,17 +1,17 @@
 <?php
 /**
- * WP Shortcode Options.
+ * Shortcode Options.
  *
  * @author            Uriel Wilson
  * @copyright         2015 - 2022 Uriel Wilson
  * @license           GPL-2.0
  *
  * @wordpress-plugin
- * Plugin Name:       WP Shortcode Options
+ * Plugin Name:       Shortcode Options
  * Plugin URI:        https://urielwilson.com/
- * Description:       This plugin is a simple way to display WP Options using shortcode <strong>[wpoption opt="blogname"]</strong>, you can reference list of options here:<a href="https://codex.wordpress.org/Option_Reference"> Option Reference </a>.
- * Version:           2.0.0
- * Requires at least: 3.0
+ * Description:       The Shortcode Options plugin is a simple way to display WordPress Options using shortcode <strong>[wpoption opt="blogname"]</strong>, you can reference list of options here:<a href="https://codex.wordpress.org/Option_Reference"> Option Reference </a>.
+ * Version:           2.0.1
+ * Requires at least: 3.4
  * Requires PHP:      7.3
  * Author:            Uriel Wilson
  * Author URI:        https://urielwilson.com

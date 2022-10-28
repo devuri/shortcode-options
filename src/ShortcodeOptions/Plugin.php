@@ -1,8 +1,8 @@
 <?php
 /**
- * This file is part of the WP Shortcode Options WordPress PLugin.
+ * This file is part of the Shortcode Options WordPress PLugin.
  *
- * (c) Uriel Wilson <uriel@urielwilson.com>
+ * (c) Uriel Wilson <hello@urielwilson.com>
  *
  * Please see the LICENSE file that was distributed with this source code
  * for full copyright and license information.
@@ -36,7 +36,7 @@ class Plugin
      *
      * @param array $atts
      *
-     * @return 
+     * @return
      */
     public function wpoption_shortcode( $atts )
     {

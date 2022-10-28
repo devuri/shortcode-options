@@ -45,3 +45,4 @@ Use the **[wpoption opt="blogname"]** shortcode to display any WordPress Option.
 
 
 == Upgrade Notice ==
+

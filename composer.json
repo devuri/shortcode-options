@@ -96,7 +96,6 @@
             "composer php-cs-fixer",
             "composer install -q",
             "composer lint",
-            "composer phpdoc -q",
             "composer no-dev -q",
             "npm install",
             "npm run build"

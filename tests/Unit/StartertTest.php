@@ -5,6 +5,11 @@ namespace ShortcodeOptions\Tests\Unit;
 use Exception;
 use ShortcodeOptions\Tests\PluginTest;
 
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
 class StartertTest extends PluginTest
 {
     /**
@@ -16,5 +21,4 @@ class StartertTest extends PluginTest
     {
         self::assertTrue(true);
     }
-
 }

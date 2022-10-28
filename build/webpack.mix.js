@@ -13,5 +13,5 @@ mix.copy([
     'index.php',
     'LICENSE',
     'readme.txt',
-    'video-publisher.php',
+    'shortcode-options.php',
 ], 'build/trunk/')

@@ -27,7 +27,6 @@ function is_integration_test(): bool
 
 // integration or unit tests.
 if (is_integration_test()) {
-
     $_tests_dir = getenv('WP_TESTS_DIR');
 
     \define('FS_METHOD', 'direct');

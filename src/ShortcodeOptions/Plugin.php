@@ -14,41 +14,43 @@ use ShortcodeOptions\Traits\Singleton;
 
 class Plugin
 {
-	use Singleton;
+    use Singleton;
 
     /**
      * Start here.
      */
     public function __construct()
-	{
-	}
+    {
+    }
 
-	/**
-	 * Add Shortcode [wpoption opt="myoption"]
-	 */
-	public function hooks()
-	{
-		add_shortcode( 'wpoption', [$this, 'wpoption_shortcode'] );
-	}
+    /**
+     * Add Shortcode [wpoption opt="myoption"].
+     */
+    public function hooks(): void
+    {
+        add_shortcode( 'wpoption', [ $this, 'wpoption_shortcode' ] );
+    }
 
-	/**
-	 * Create Shortcode output.
-	 *
-	 * @param  array $atts
-	 * @return
-	 */
-	public function wpoption_shortcode( $atts )
-	{
-	   	$atts = shortcode_atts(
-	   		array(
-	   			'opt' => 'blogname',
-	   		),
-	   		$atts
-	   	);
+    /**
+     * Create Shortcode output.
+     *
+     * @param array $atts
+     *
+     * @return
+     */
+    public function wpoption_shortcode( $atts )
+    {
+        $atts = shortcode_atts(
+            [
+                'opt' => 'blogname',
+            ],
+            $atts
+        );
 
-	   	$output = get_option( $atts['opt'] );
+        ob_start();
 
-		return $output;
-	}
+        echo esc_html( get_option( $atts['opt'] ) );
 
+        return ob_get_clean();
+    }
 }

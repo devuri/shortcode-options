@@ -9,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Shortcode Options
  * Plugin URI:        https://urielwilson.com/
- * Description:       This plugin is a simple way to display WP Options using shortcode <strong>[wpoption option="blogname"]</strong>, you can reference list of options here:<a href="https://codex.wordpress.org/Option_Reference"> Option Reference </a>.
+ * Description:       This plugin is a simple way to display WP Options using shortcode <strong>[wpoption opt="blogname"]</strong>, you can reference list of options here:<a href="https://codex.wordpress.org/Option_Reference"> Option Reference </a>.
  * Version:           2.0.0
  * Requires at least: 3.0
  * Requires PHP:      7.3

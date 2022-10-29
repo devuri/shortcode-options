@@ -1,3 +1,5 @@
+> **Note:** This is the development version and contains features that may be in various stages of development. If you want to use this on a live website download here: [Shortcode Options](https://wordpress.org/plugins/shortcode-options/).
+
 # Shortcode Options
 Options are pieces of data that WordPress uses to store various preferences and configuration settings. Listed below are the options, along with some of the default values from the current WordPress install ([Reference](https://codex.wordpress.org/Option_Reference)).
 This plugin is a simple way to display WP Options using shortcode [wpoption opt="blogname"], you can reference list of options here: [Codex Option Reference](https://codex.wordpress.org/Option_Reference)..

@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   tag:
-    name: New tag
+    name: New WordPress.org Release
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master

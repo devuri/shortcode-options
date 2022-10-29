@@ -10,7 +10,7 @@
  * Plugin Name:       Shortcode Options
  * Plugin URI:        https://urielwilson.com/
  * Description:       The Shortcode Options plugin is a simple way to display WordPress Options using shortcode <strong>[wpoption opt="blogname"]</strong>, you can reference list of options here:<a href="https://codex.wordpress.org/Option_Reference"> Option Reference </a>.
- * Version:           2.0.1
+ * Version:           2.0.3
  * Requires at least: 3.4
  * Requires PHP:      7.3
  * Author:            Uriel Wilson

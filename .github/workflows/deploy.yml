@@ -32,7 +32,7 @@ jobs:
 
     - name: New WordPress.org Release
       uses: 10up/action-wordpress-plugin-deploy@master
-	  env:
+      env:
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-        BUILD_DIR: build/trunk
+        BUILD_DIR: build/trunk/

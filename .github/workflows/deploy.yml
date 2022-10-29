@@ -1,16 +1,38 @@
-name: Deploy to WordPress.org
+name: Deploy Release to WordPress.org
+
 on:
   release:
     types: [ published ]
   workflow_dispatch:
+
 jobs:
-  tag:
-    name: New WordPress.org Release
+  deploy-wporg-release:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@master
-    - name: WordPress Plugin Deploy
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - uses: "shivammathur/setup-php@v2"
+      with:
+        php-version: "7.4"
+        extensions: pcov
+
+    - name: Install composer dependencies
+      uses: ramsey/composer-install@v1
+      with:
+        composer-options: '-oa --no-dev'
+
+    - name: Setup Node 16.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: npm
+    - run: npm install
+    - run: npm run build
+
+    - name: New WordPress.org Release
       uses: 10up/action-wordpress-plugin-deploy@master
-      env:
+	  env:
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+        BUILD_DIR: build/trunk

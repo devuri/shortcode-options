@@ -15,6 +15,7 @@ report/
 
 ## PLUGIN FILES
 build/trunk/
+trunk/
 *.zip
 
 ## OTHER

@@ -36,11 +36,9 @@ jobs:
       - run: npm install
       - run: npm run build
 
-	  - name: New Release
-      - uses: actions/checkout@master
       - name: Deploy WordPress Plugin
-          uses: 10up/action-wordpress-plugin-deploy@master
-          env:
+        uses: 10up/action-wordpress-plugin-deploy@master
+        env:
             SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
             SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
             BUILD_DIR: build/trunk/

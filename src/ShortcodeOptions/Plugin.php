@@ -17,13 +17,6 @@ class Plugin
     use Singleton;
 
     /**
-     * Start here.
-     */
-    public function __construct()
-    {
-    }
-
-    /**
      * Add Shortcode [wpoption opt="myoption"].
      */
     public function hooks(): void

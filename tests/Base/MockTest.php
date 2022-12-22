@@ -1,6 +1,6 @@
 <?php
 
-namespace ShortcodeOptions\Tests;
+namespace Tests\Base;
 
 use Brain\Monkey;
 use Brain\Monkey\Functions;
@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see https://giuseppe-mazzapica.gitbook.io/brain-monkey/functions-testing-tools/functions-setup
  */
-abstract class PluginTest extends TestCase
+abstract class MockTest extends TestCase
 {
     use MockeryPHPUnitIntegration;
 

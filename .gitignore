@@ -28,6 +28,7 @@ build/trunk/
 .phpunit.result.cache
 .phpdoc/cache/
 npm-debug.log
+composer.lock
 yarn-error.log
 wpcs-lint.txt
 wpcs-fixed-report.txt

@@ -1,16 +1,16 @@
 <?php
 
-namespace ShortcodeOptions\Tests\Unit;
+namespace Tests\Unit;
 
 use Exception;
-use ShortcodeOptions\Tests\PluginTest;
+use Tests\Base\UnitTest;
 
 /**
  * @internal
  *
  * @coversNothing
  */
-class StartertTest extends PluginTest
+class StarterTest extends UnitTest
 {
     /**
      * @param mixed $vid

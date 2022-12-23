@@ -26,16 +26,15 @@ jobs:
           ini-values: display_errors = on, error_reporting = E_ALL
           tools: composer
 
-      - name: Install composer packages
-        run: composer update -W
-
       - name: Node Build 16.x
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: npm
       - run: npm install
-      - run: npm run build
+
+      - name: Install composer packages
+        run: composer build
 
       - name: Deploy WordPress Plugin
         uses: 10up/action-wordpress-plugin-deploy@master

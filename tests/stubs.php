@@ -1,5 +1,9 @@
 <?php
 
+if ( ! \defined('SCO_DIR_PATH')) {
+    \define('SCO_DIR_PATH', "/plugins/shortcode-options/");
+}
+
 // Available unit tests only.
 function tests_add_filter($arg1, $arg2): void
 {

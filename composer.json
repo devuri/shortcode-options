@@ -1,7 +1,11 @@
 {
     "name": "devuri/shortcode-options",
     "description": "Shortcode Options",
-    "keywords": ["WordPress","Options","Shortcode"],
+    "keywords": [
+        "WordPress",
+        "Options",
+        "Shortcode"
+    ],
     "license": "GPL-2.0-only",
     "authors": [
         {
@@ -18,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ShortcodeOptions\\":"src/ShortcodeOptions/"
+            "ShortcodeOptions\\": "src/ShortcodeOptions/"
         }
     },
     "autoload-dev": {
@@ -41,25 +45,25 @@
         "yoast/phpunit-polyfills": "^1.0"
     },
     "scripts": {
-    	"e2e":"npm run cypress",
-        "wpcs":"composer wpcs-lint",
-        "wpcs-lint":[
+        "e2e": "npm run cypress",
+        "wpcs": "composer wpcs-lint",
+        "wpcs-lint": [
             "composer install -q",
             "phpcs -ns src",
             "phpcs -ns shortcode-options.php"
         ],
-        "wpcs-lint-all":[
+        "wpcs-lint-all": [
             "composer install -q",
             "phpcs -s src",
             "phpcs -ns shortcode-options.php"
         ],
-        "wpcs-fix":[
+        "wpcs-fix": [
             "composer install -q",
             "phpcbf src",
             "phpcbf video-publisher.php",
             "phpcbf uninstall.php"
         ],
-        "test":[
+        "test": [
             "composer install -q",
             "vendor/bin/phpunit --exclude-group integration",
             "composer no-dev -q"
@@ -79,7 +83,7 @@
         ],
         "setup-local-wp": "bash bin/install-wp-tests.sh wordpress_testdb root password 127.0.0.1 latest",
         "setup-github-wp": "bash bin/install-wp-tests.sh wordpress_test root root 127.0.0.1 latest",
-        "lint":[
+        "lint": [
             "composer install -q",
             "composer php-compat",
             "composer wpcs-lint",
@@ -105,7 +109,7 @@
             "composer require --dev szepeviktor/phpstan-wordpress -q",
             "@php ./vendor/bin/phpstan analyse"
         ],
-		"php-compat": [
+        "php-compat": [
             "composer install",
             "vendor/bin/phpcs shortcode-options.php src/ --standard=PHPCompatibilityWP --extensions=php --runtime-set testVersion 7.3-"
         ],
@@ -116,11 +120,11 @@
             "composer install -q",
             "vendor/bin/psalm --alter --issues=InvalidNullableReturnType,MismatchingDocblockReturnType,InvalidReturnType,InvalidFalsableReturnType,LessSpecificReturnType,MissingParamType"
         ],
-        "codefix":[
+        "codefix": [
             "composer php-cs-fixer",
             "composer no-dev -q"
         ],
-        "code-fix":[
+        "code-fix": [
             "composer php-cs-fixer",
             "composer no-dev -q"
         ],

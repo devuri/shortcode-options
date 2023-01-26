@@ -22,6 +22,11 @@ class Plugin
     public function hooks(): void
     {
         add_shortcode( 'wpoption', [ $this, 'wpoption_shortcode' ] );
+
+        /**
+         * Loading the plugin translations.
+         */
+        add_action( 'init', [ Lang::class, 'i18n' ] );
     }
 
     /**

@@ -13,7 +13,7 @@
  * Version:           2.1.01
  * Requires at least: 3.4
  * Requires PHP:      7.3
- * Author:            Uriel Wilson
+ * Author:            Uriel
  * Author URI:        https://urielwilson.com
  * Text Domain:       shortcode-options
  * Domain Path:       /languages

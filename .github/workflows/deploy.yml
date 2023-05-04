@@ -1,4 +1,4 @@
-name: Deploy
+name: WordPress.org Deploy
 
 env:
   SLUG: "shortcode-options"

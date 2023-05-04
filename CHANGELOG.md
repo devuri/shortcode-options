@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/devuri/shortcode-options/compare/v2.3.0...v2.3.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* version update ([ff9bd58](https://github.com/devuri/shortcode-options/commit/ff9bd58ef8a11b3e6a5fd36d5b83ad9332a627cf))
+
 ## [2.3.0](https://github.com/devuri/shortcode-options/compare/v2.2.0...v2.3.0) (2023-05-04)
 
 

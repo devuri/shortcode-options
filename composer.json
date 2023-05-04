@@ -60,7 +60,7 @@
         "wpcs-fix": [
             "composer install -q",
             "phpcbf src",
-            "phpcbf video-publisher.php",
+            "phpcbf shortcode-options.php",
             "phpcbf uninstall.php"
         ],
         "test": [

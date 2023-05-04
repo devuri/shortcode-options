@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: options, shortcode
 Requires at least: 3.4
 Tested up to: 6.1
-Stable tag: 2.3.04
+Stable tag: 2.3.05
 Requires PHP: 7.3
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html

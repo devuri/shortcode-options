@@ -10,7 +10,7 @@ on:
 
 jobs:
   tag:
-    name: New release
+    name: New Plugin .org release
     runs-on: ubuntu-latest
 
     steps:
@@ -36,7 +36,7 @@ jobs:
         run: composer build
 
       - name: 🚀 Deploy WordPress Plugin
-        uses: 10up/action-wordpress-plugin-deploy@master
+        uses: 10up/action-wordpress-plugin-deploy@stable
         env:
             SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
             SVN_USERNAME: ${{ secrets.SVN_USERNAME }}

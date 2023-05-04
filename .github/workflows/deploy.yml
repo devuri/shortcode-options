@@ -42,5 +42,5 @@ jobs:
             SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
             SLUG: shortcode-options
             BUILD_DIR: ./build/trunk/
-            INPUT_DRY_RUN: true
+            INPUT_DRY_RUN: false
             # VERSION: 10012 # only for testing

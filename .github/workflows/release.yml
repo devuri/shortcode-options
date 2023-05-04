@@ -64,3 +64,14 @@ jobs:
           files: 'shortcode-options.zip'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.release.outputs.tag_name }}
+
+      - name: 🚀 Deploy WordPress Plugin
+        if: ${{ steps.release.outputs.releases_created }}
+        uses: 10up/action-wordpress-plugin-deploy@develop
+        env:
+            SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+            SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+            SLUG: shortcode-options
+            BUILD_DIR: ./build/trunk/
+            INPUT_DRY_RUN: false
+            # VERSION: 10012 # only for testing

@@ -43,3 +43,4 @@ jobs:
             SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
             SLUG: ${{ env.SLUG }}
             BUILD_DIR: ${{ env.BUILD_DIR }}
+            INPUT_DRY_RUN: false

@@ -36,11 +36,11 @@ jobs:
         run: composer build
 
       - name: 🚀 Deploy WordPress Plugin
-        uses: 10up/action-wordpress-plugin-deploy@stable
+        uses: 10up/action-wordpress-plugin-deploy@develop
         env:
             SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
             SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
             SLUG: shortcode-options
             BUILD_DIR: ./build/trunk/
             INPUT_DRY_RUN: true
-            VERSION: 0012
+            # VERSION: 10012 # only for testing

@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/devuri/shortcode-options/compare/v2.1.0...v2.2.0) (2023-05-04)
+
+
+### Features
+
+* update readme txt ([682e3e6](https://github.com/devuri/shortcode-options/commit/682e3e6fce89528cc8bc60cb7c6e08906ad6b691))
+
 ## [2.1.0](https://github.com/devuri/shortcode-options/compare/v2.0.4...v2.1.0) (2023-01-26)
 
 

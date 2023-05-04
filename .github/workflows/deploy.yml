@@ -35,7 +35,7 @@ jobs:
       - name: Install composer packages
         run: composer build
 
-      - name: Deploy WordPress Plugin
+      - name: 🚀 Deploy WordPress Plugin
         uses: 10up/action-wordpress-plugin-deploy@master
         env:
             SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}

@@ -1,7 +1,7 @@
 #
 # This runs after changes are merged to `master`.
 #
-name: Release
+name: 🚀 Deploy Release
 on:
   pull_request:
     types:

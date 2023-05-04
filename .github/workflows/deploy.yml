@@ -43,3 +43,4 @@ jobs:
             SLUG: shortcode-options
             BUILD_DIR: ./build/trunk/
             INPUT_DRY_RUN: true
+            VERSION: 0012

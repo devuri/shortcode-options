@@ -74,4 +74,4 @@ jobs:
             SLUG: shortcode-options
             BUILD_DIR: ./build/trunk/
             INPUT_DRY_RUN: false
-            VERSION: ${{ steps.release.outputs.tag_name.replace('v', '') }}
+            VERSION: ${{ steps.release.outputs.tag_name.replace("v", "") }}

@@ -28,6 +28,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Update Stable tag
+        run: |
+          sed -i 's/Stable tag:.*/Stable tag: ${{ steps.release.outputs.tag_name.replace('v', '') }}/g' readme.txt
+          sed -i 's/\* Version:.*/\* Version:\t\t\t${{ steps.release.outputs.tag_name.replace('v', '') }}/g' shortcode-options.php
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update Stable tversion to ${{ steps.release.outputs.tag_name.replace('v', '') }}
+          title: Update Stable tag to ${{ steps.release.outputs.tag_name.replace('v', '') }}
+          branch: master
+          body: Update Stable version ${{ steps.release.outputs.tag_name.replace('v', '') }} in readme.txt and shortcode-options.php files
+          labels: 'auto-generated, release'
+
       - name: Setup PHP 7.4
         if: ${{ steps.release.outputs.releases_created }}
         uses: shivammathur/setup-php@v2

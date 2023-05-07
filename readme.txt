@@ -3,7 +3,7 @@ Contributors: icelayer
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6D6W2KXB88NKE
 Tags: options, shortcode
 Requires at least: 3.4
-Tested up to: 6.1
+Tested up to: 6.2
 Stable tag: 2.3.2
 Requires PHP: 7.3
 License: GPLv2

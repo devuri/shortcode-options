@@ -1,4 +1,5 @@
-> **Note:** This is the development version and contains features that may be in various stages of development. If you want to use this on a live website download here: [Shortcode Options](https://wordpress.org/plugins/shortcode-options/).
+> **Note**
+> This is the development version and contains features that may be in various stages of development. If you want to use this on a live website download here: [Shortcode Options](https://wordpress.org/plugins/shortcode-options/).
 
 # Shortcode Options
 WordPress uses options to store a wide range of preferences and configuration settings. These options are essential for WordPress to function smoothly. By default, WordPress installs come with a set of predefined options that are used to manage various aspects of the site.

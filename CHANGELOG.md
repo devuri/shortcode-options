@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.3.3](https://github.com/devuri/shortcode-options/compare/2.3.2...2.3.3) (2024-01-09)
+
+
+### Bug Fixes
+
+* updated 6.4 tested v2.3.4 ([ec98bad](https://github.com/devuri/shortcode-options/commit/ec98bad3abcd582786cc7cc21849b78d243a74a7))
+
+
+### Miscellaneous Chores
+
+* version 2.3.3 ([06aa074](https://github.com/devuri/shortcode-options/commit/06aa074280a793372e476a8b8a8fdb14c6db5815))
+
 ## [2.3.2](https://github.com/devuri/shortcode-options/compare/v2.3.1...2.3.2) (2023-05-04)
 
 

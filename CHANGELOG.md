@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.4](https://github.com/devuri/shortcode-options/compare/2.3.3...2.3.4) (2024-07-28)
+
+
+### Bug Fixes
+
+* tested up to update `wp-6.6` ([7efe0d3](https://github.com/devuri/shortcode-options/commit/7efe0d366ae0f99807f42e47eca76c7416747930))
+
 ## [2.3.3](https://github.com/devuri/shortcode-options/compare/2.3.2...2.3.3) (2024-01-09)
 
 
